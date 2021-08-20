@@ -1,2 +1,6 @@
-[DEFAUL]
+[DEFAULT]
 SECRET_KEY = "sdfdfgdf45jk#lj4#5"
+EXTENSIONS = [
+    "pkg.blueprints.restapi", 
+    "pkg.blueprints.webui"  
+]
