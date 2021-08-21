@@ -7,13 +7,13 @@ Para utilizar a API segue um exemplo utilizando o curl:
 
 Inicar a aplicação:
 ```bash
-$ flask run
+flask run
 ```
 
 Em outro terminal:
 
 ```bash
-$ curl -X POST localhost:5000/api/v1/user -d \
+curl -X POST localhost:5000/api/v1/user -d \
 '{"username": "yourusername"}'
 ```
 
